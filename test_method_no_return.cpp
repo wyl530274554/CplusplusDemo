@@ -17,5 +17,10 @@ int main()
 	int a = 10, b = 10;
 	int ret = method(a, b);
 	std::cout << "ret:" << ret << std::endl;
+
+	/**
+	 * a:10, b:10
+	 * ret:-1225659539 随机整数
+	 */
 	return 0;
 }
